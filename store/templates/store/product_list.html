@@ -23,5 +23,6 @@
             <li>{{ product.name }} - P{{ product.price }}</li> 
         {% endfor %}
     </ul>
+    <a href="{% url 'add_product' %}">Add New Product</a>
 </body>
 </html>
